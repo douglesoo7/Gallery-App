@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivVideoThumb"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="2dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ivPlay"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_play"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
